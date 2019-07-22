@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66cf71ad-deb5-4cd9-bc4c-ece974279fed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/ReplaceCharacters.java" afterDir="false" />
-    </list>
+    <list default="true" id="66cf71ad-deb5-4cd9-bc4c-ece974279fed" name="Default Changelist" comment="&quot;Done with 4 programme&quot;" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,12 +19,12 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/SortString.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/SortStringTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -36,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/TransposeOfStringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="230">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -301,12 +298,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CountCharacterTest_characterCountNotNull - 2019.07.22 at 12h 34m 19s.xml">
-      <configuration name="CountCharacterTest.characterCountNotNull" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountCharacterTest_characterCountFailure - 2019.07.22 at 12h 42m 20s.xml">
-      <configuration name="CountCharacterTest.characterCountFailure" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ReplaceCharactersTest - 2019.07.22 at 14h 05m 13s.xml">
       <configuration name="ReplaceCharactersTest" configurationId="JUnit" />
     </history-entry>
@@ -331,6 +322,12 @@
     <history-entry file="TransposeOfStringTest_test - 2019.07.22 at 15h 06m 37s.xml">
       <configuration name="TransposeOfStringTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TransposeOfStringTest_test - 2019.07.22 at 16h 43m 25s.xml">
+      <configuration name="TransposeOfStringTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortStringTest_sortString - 2019.07.22 at 16h 45m 55s.xml">
+      <configuration name="SortStringTest.sortString" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1296" height="741" extended-state="6" />
@@ -346,11 +343,11 @@
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" visible="true" weight="0.3289256" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.3289256" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="SonarLint" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.3305785" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3305785" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -364,6 +361,10 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;Done with 4 programme&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Done with 4 programme&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/CountCharacterTest.groovy">
@@ -416,17 +417,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/SortString.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/TransposeOfStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/SortStringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="230">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -437,10 +431,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/TransposeOfStringTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/SortString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="210">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/SortStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
