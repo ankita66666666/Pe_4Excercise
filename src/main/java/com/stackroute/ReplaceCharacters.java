@@ -4,10 +4,8 @@ public class ReplaceCharacters {
     String string1;
 
     // here we are replacing characters
-    public String replaceCharacters(String inputString) {
-        if (inputString == null) {
-            return null;
-        }
+    public String replaceCharacters(String inputString)
+    {
         // replace d with f here
         String result = inputString.replaceAll("d", "f");
 
