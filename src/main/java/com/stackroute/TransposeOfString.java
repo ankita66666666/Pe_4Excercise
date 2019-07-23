@@ -16,7 +16,7 @@ public class TransposeOfString {
             reverse=reverse+" ";
             newString=reverse.trim();
         }
-        //it will reverse the new string after transpose
+        //it will return the new string after transpose
         return newString;
     }
 }
