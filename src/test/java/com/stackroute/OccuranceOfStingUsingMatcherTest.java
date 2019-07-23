@@ -10,29 +10,33 @@ public class OccuranceOfStingUsingMatcherTest {
 
 
     OccuranceOfStingUsingMatcher occuranceOfStingUsingMatcher;
+
     @Before
-    public void setUp() throws Exception {
-        occuranceOfStingUsingMatcher=new OccuranceOfStingUsingMatcher();
+    public void setUpOnce()  {
+        occuranceOfStingUsingMatcher = new OccuranceOfStingUsingMatcher();
     }
 
     @After
-    public void tearDown() throws Exception {
-        occuranceOfStingUsingMatcher=null;
+    public void tearDownOnce()  {
+        occuranceOfStingUsingMatcher = null;
     }
 
     @Test
     public void matching() {
-        String expected="Found at: 4 - 6\n" +
+        String expected = "Found at: 4 - 6\n" +
                 "Found at: 10 - 12\n" +
                 "Found at: 27 - 29";
-        String actual= occuranceOfStingUsingMatcher.matching("She sells seashells by the seashore","se");
+        String actual = occuranceOfStingUsingMatcher.matching
+                ("She sells seashells by the seashore", "se");
 
-        assertEquals(expected,actual);
+        assertEquals(expected, actual);
     }
+
     @Test
     public void matchingNotNull() {
 
-        String actual=occuranceOfStingUsingMatcher.matching("She sells seashells by the seashore","se");
+        String actual = occuranceOfStingUsingMatcher.matching
+                ("She sells seashells by the seashore", "se");
         assertNotNull(actual);
     }
 }

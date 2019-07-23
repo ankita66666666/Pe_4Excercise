@@ -12,12 +12,12 @@ public class SortStringTest {
         SortString app;
 
         @Before
-        public void setUp() throws Exception {
+        public void setUpOnce() {
             app = new SortString();
         }
 
         @After
-        public void tearDown() throws Exception {
+        public void tearDownOnce()  {
             app = null;
         }
 
@@ -26,7 +26,7 @@ public class SortStringTest {
         }
 
         @Test
-        public void test3() throws Exception {
+        public void test3() {
             //Arrange
             String[] expectedValue = {"abhinav", "neha", "golu"};
 
