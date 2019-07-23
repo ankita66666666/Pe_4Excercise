@@ -12,12 +12,14 @@ public class OccuranceOfStingUsingMatcherTest {
     OccuranceOfStingUsingMatcher occuranceOfStingUsingMatcher;
 
     @Before
-    public void setUpOnce()  {
+    public void setUpOnce() {
+
         occuranceOfStingUsingMatcher = new OccuranceOfStingUsingMatcher();
     }
 
     @After
-    public void tearDownOnce()  {
+    public void tearDownOnce() {
+
         occuranceOfStingUsingMatcher = null;
     }
 
