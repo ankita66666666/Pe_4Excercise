@@ -5,6 +5,7 @@ public class TransposeOfString {
     String transposeString(String str) {
         String reverse = "";
         String newString="";
+        //spliting string here
         String[] names = str.split(" ");
         for (int j = 0; j < names.length; j++) {
          String word = names[j];
@@ -15,6 +16,7 @@ public class TransposeOfString {
             reverse=reverse+" ";
             newString=reverse.trim();
         }
+        //it will reverse the new string after transpose
         return newString;
     }
 }

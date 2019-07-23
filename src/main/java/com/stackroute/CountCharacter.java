@@ -1,13 +1,15 @@
 package com.stackroute;
 
 public class CountCharacter {
-   int num;
+    int num;
+
     public int countCharacter(String inputString, char characterInput) {
 
-
-                num=inputString.length() - inputString.replaceAll(String.valueOf(characterInput), "").length();
-                System.out.println(num);
-                return num;
+//here replacing the sting by giving character input
+        num = inputString.length() - inputString.replaceAll(String.valueOf(characterInput), "").length();
+        System.out.println(num);
+        //here returning num value
+        return num;
     }
 }
 
