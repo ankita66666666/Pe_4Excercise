@@ -11,33 +11,29 @@ public class ReplaceCharactersTest {
 
 
     @Before
-    public void setUpOnce()  {
-        replaceCharacters =new ReplaceCharacters();
+    public void setUpOnce() {
+
+        this.replaceCharacters = new ReplaceCharacters();
     }
 
     @After
-    public void tearDownOnce()  {
-        replaceCharacters=null;
+    public void tearDownOnce() {
+
+        replaceCharacters = null;
     }
 
     @Test
     public void replaceCharacters() {
-        String expected="faity fry";
-        String actual= replaceCharacters.replaceCharacters("daily dry");
-        assertEquals(expected,actual);
+        String expected = "faity fry";
+        String actual = replaceCharacters.replaceCharacters("daily dry");
+        assertEquals(expected, actual);
 
     }
 
     @Test
     public void replaceCharactersNotNull() {
-        String actual=replaceCharacters.replaceCharacters("daily dry");
+        String actual = replaceCharacters.replaceCharacters("daily dry");
         assertNotNull(actual);
-
-    }
-    @Test
-    public void replaceCharactersNull() {
-        String actual=replaceCharacters.replaceCharacters(null);
-        assertNull(actual);
 
     }
 }

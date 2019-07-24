@@ -13,11 +13,13 @@ public class TransposeOfStringTest {
 
     @Before
     public void setUpOnce()  {
+
         tos= new TransposeOfString();
     }
 
     @After
     public void tearDownOnce() {
+
         tos= null;
     }
 
