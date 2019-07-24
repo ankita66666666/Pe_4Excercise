@@ -9,29 +9,26 @@ import static org.junit.Assert.*;
 public class SortStringTest {
 
 
-        SortString app;
+        SortString sortString;
 
         @Before
         public void setUpOnce() {
-            app = new SortString();
+            sortString = new SortString();
         }
 
         @After
         public void tearDownOnce()  {
-            app = null;
+            sortString = null;
         }
 
-        @Test
-        public void sortString() {
-        }
+
 
         @Test
-        public void test3() {
+        public void givenStringShouldReturnStringSortAlphabetically() {
             //Arrange
-            String[] expectedValue = {"abhinav", "neha", "golu"};
+            String[] expectedValue = {"abhinav", "anand", "gopal"};
 
-            //Act
-            String[] actualValue = app.sortString("golu neha abhinav");
+            String[] actualValue = sortString.sorting("gopal anand abhinav");
             //Assert
             assertArrayEquals(expectedValue, actualValue);
             assertNotNull(actualValue);
